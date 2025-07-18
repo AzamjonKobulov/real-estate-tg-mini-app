@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --max-width-base: 38.75rem;
+
+  --color-theme-success: #199226;
+  --color-theme-warning: #f9aa00;
+  --color-theme-error: #f4462c;
+  --color-theme-dark: #1d1d1d;
+  --color-theme-gray: #c5c6c7;
+  --color-theme-gray-light: #ededed;
+  --color-theme-dark: #1d1d1d;
+  --color-theme-main-text: #2f2f2f;
+  --color-theme-small-text: #8a8a8a;
+  --color-theme-small-text-2: #fafafa;
+  --color-theme-main: #2b62b4;
+  --color-theme-main-1: #668ec9;
+  --color-theme-main-2: #97b2db;
+  --color-theme-main-3: #cad8ec;
+  --color-theme-main-4: #dfe7f4;
+  --color-theme-main-5: #f8fafd;
+
+  --font-lato: "Lato", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-lato overflow-x-hidden;
+  }
+}
