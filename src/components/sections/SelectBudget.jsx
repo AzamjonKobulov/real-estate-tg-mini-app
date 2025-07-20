@@ -214,7 +214,7 @@ export default function SelectBudget() {
 
   return (
     <section id="select-budget">
-      <div className="max-w-base mx-auto space-y-5">
+      <div className="max-w-base mx-auto pb-5 space-y-5">
         <div className=" px-5">
           <h2>Select Budget</h2>
           <p className="text-xs text-theme-small-text">
