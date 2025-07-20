@@ -37,7 +37,7 @@ export default function AdvertisementProperty() {
                   <LikeButton />
                 </div>
                 <div className="flex items-center gap-1.25">
-                  <img src="./assets/icons/builidng.svg" alt="Building" />
+                  <img src="./assets/icons/villa.svg" alt="Villa" />
                   <span className="text-theme-small-text">Villa</span>
                 </div>
                 <h4 className="font-medium text-theme-main-text text-lg/[1.2]">

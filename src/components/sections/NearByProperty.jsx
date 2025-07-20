@@ -81,7 +81,7 @@ export default function NearByProperty() {
                   <div className="flex items-center gap-1.25">
                     <img
                       src="./assets/icons/apartment.svg"
-                      alt="Building"
+                      alt="Apartment"
                       className="size-4"
                     />
                     <span className="text-theme-small-text">Apartment</span>
@@ -121,8 +121,8 @@ export default function NearByProperty() {
                   </div>
                   <div className="flex items-center gap-1.25">
                     <img
-                      src="./assets/icons/builidng.svg"
-                      alt="Building"
+                      src="./assets/icons/villa.svg"
+                      alt="Villa"
                       className="size-4"
                     />
                     <span className="text-theme-small-text">Villa</span>
@@ -167,7 +167,7 @@ export default function NearByProperty() {
                   <div className="flex items-center gap-1.25">
                     <img
                       src="./assets/icons/house.svg"
-                      alt="Building"
+                      alt="House"
                       className="size-4"
                     />
                     <span className="text-theme-small-text">House</span>
