@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import AppLayout from "./layout/AppLayout";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <AppLayout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </AppLayout>
     </BrowserRouter>
   );
 }

@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 
-import LikeButton from "../shared/LikeButton";
-
 export default function Articles() {
   return (
     <section id="artcles">
