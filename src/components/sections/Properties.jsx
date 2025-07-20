@@ -14,13 +14,13 @@ export default function Properties() {
             See all
           </Link>
         </div>
-        <div className="scroll-none overflow-auto px-5">
+        <div className="scroll-none overflow-auto pb-5 px-5">
           <div className="min-w-max flex-center items-center gap-5">
             {[...Array(totalSlides)].map((_, i) => (
               <Link
                 to=""
                 key={i}
-                className="w-58.5 rounded-xl overflow-hidden shadow-properties"
+                className="w-58.5 rounded-xl shadow-properties overflow-hidden"
               >
                 <div className="h-30 relative">
                   <div className="flex-between relative z-10 p-2.5">

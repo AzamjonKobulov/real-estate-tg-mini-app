@@ -4,7 +4,7 @@ import LikeButton from "../shared/LikeButton";
 export default function AdvertisementProperty() {
   return (
     <section id="advertisement-property">
-      <div className="space-y-5 mt-5">
+      <div className="space-y-5">
         <div className="max-w-base mx-auto flex-between px-5">
           <h2>Advertisement Property</h2>
           <Link to="/" className="text-sm text-theme-main">
