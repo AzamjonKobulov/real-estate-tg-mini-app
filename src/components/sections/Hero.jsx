@@ -3,29 +3,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { Pagination, Autoplay } from "swiper/modules";
+import ButtonGroup from "../shared/ButtonGroup";
 
 export default function Hero() {
-  const [activeIndex, setActiveIndex] = useState(0); // Track current active slide
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [selectedVal, setSelectedVal] = useState(0);
+  console.log(selectedVal);
   const totalSlides = 3;
 
   return (
     <section id="hero">
       {/* Filter Buttons */}
       <div className="max-w-base mx-auto overflow-x-auto scroll-none mt-5 px-5">
-        <div className="min-w-max flex items-center gap-2.5">
-          <button className="h-10 bg-theme-main text-white rounded-lg px-5">
-            Buy
-          </button>
-          <button className="h-10 bg-theme-main-5 text-theme-small-text rounded-lg px-5">
-            Rent
-          </button>
-          <button className="h-10 bg-theme-main-5 text-theme-small-text rounded-lg px-5">
-            Sell
-          </button>
-          <button className="h-10 bg-theme-main-5 text-theme-small-text rounded-lg px-5">
-            Commercial
-          </button>
-        </div>
+        <ButtonGroup
+          options={["Buy", "Rent", "Sell", "Commercial"]}
+          onChange={(val) => setSelectedVal(val)}
+        />
       </div>
 
       <div className="max-w-base mx-auto mt-5 px-5">

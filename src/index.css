@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 @theme {
-  --max-width-base: 36.25rem;
+  --max-width-base: 32.5rem;
 
   --color-theme-success: #199226;
   --color-theme-warning: #f9aa00;

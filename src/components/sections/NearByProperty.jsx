@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import LikeButton from "../shared/LikeButton";
 
@@ -11,27 +13,21 @@ import "swiper/css/pagination";
 
 // import required modules
 import { EffectCoverflow } from "swiper/modules";
+import ButtonGroup from "../shared/ButtonGroup";
 
 export default function NearByProperty() {
+  const [selectedVal, setSelectedVal] = useState(0);
+  console.log(selectedVal);
+
   return (
     <section id="advertisement-property">
-      <div className=" space-y-5 mt-5">
+      <div className=" space-y-5 pb-5 mt-5">
         <div className="max-w-base mx-auto space-y-5 px-5">
           <h2>Select BHK</h2>
-          <div className="min-w-max flex items-center gap-2.5">
-            <button className="h-10 bg-theme-main text-white rounded-lg px-5">
-              1 RK
-            </button>
-            <button className="h-10 bg-theme-main-5 text-theme-small-text rounded-lg px-5">
-              1 BHK
-            </button>
-            <button className="h-10 bg-theme-main-5 text-theme-small-text rounded-lg px-5">
-              2 BHK
-            </button>
-            <button className="h-10 bg-theme-main-5 text-theme-small-text rounded-lg px-5">
-              3 BHK
-            </button>
-          </div>
+          <ButtonGroup
+            options={["1 RK", "1 BHK", "2 BHK", "3 BHK"]}
+            onChange={(val) => setSelectedVal(val)}
+          />
         </div>
         <div className="max-w-base mx-auto flex-between px-5">
           <h2>Near by Property</h2>

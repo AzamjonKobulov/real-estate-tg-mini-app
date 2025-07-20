@@ -3,6 +3,7 @@ import AdvertisementProperty from "../components/sections/AdvertisementProperty"
 import Hero from "../components/sections/Hero";
 import NearByProperty from "../components/sections/NearByProperty";
 import Properties from "../components/sections/Properties";
+import SelectBudget from "../components/sections/SelectBudget";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Properties />
       <AdvertisementProperty />
       <NearByProperty />
+      <SelectBudget />
     </>
   );
 }
