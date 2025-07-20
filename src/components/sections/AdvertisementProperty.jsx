@@ -15,7 +15,7 @@ export default function AdvertisementProperty() {
           <div className="flex-center gap-5">
             <Link
               to="/"
-              className="flex rounded-lg shadow-properties overflow-hidden"
+              className="h-38.75 flex rounded-lg shadow-properties overflow-hidden"
             >
               <div className="w-1/3 relative">
                 <span className="h-6.75 flex-center absolute bottom-2.5 left-2.5 bg-theme-main-3 text-theme-main font-medium text-sm rounded px-2.5">
