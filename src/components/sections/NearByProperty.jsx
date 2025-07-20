@@ -35,13 +35,14 @@ export default function NearByProperty() {
             See all
           </Link>
         </div>
-        <div className="max-w-base mx-auto">
+        <div className="max-w-base mx-auto sm:px-5">
           <Swiper
             effect={"coverflow"}
             grabCursor={true}
             centeredSlides={true}
             spaceBetween={48}
             slidesPerView={1.5}
+            initialSlide={1}
             coverflowEffect={{
               rotate: 0,
               stretch: 5,

@@ -4,16 +4,16 @@ import LikeButton from "../shared/LikeButton";
 
 export default function FurnishedProperties() {
   return (
-    <section id="properties">
-      <div className="space-y-5 mt-5">
-        <div className="max-w-base mx-auto flex-between px-5">
+    <section id="furnished-properties">
+      <div className="max-w-base mx-auto space-y-5 mt-5">
+        <div className="flex-between px-5">
           <h2>Fully Furnished Properties</h2>
           <Link to="/" className="text-sm text-theme-main">
             See all
           </Link>
         </div>
         <div className="scroll-none overflow-auto pb-5 px-5">
-          <div className="min-w-max flex-center items-center gap-5">
+          <div className="min-w-max flex items-center gap-5">
             <Link
               to="/"
               className="w-58.5 rounded-xl shadow-properties overflow-hidden"

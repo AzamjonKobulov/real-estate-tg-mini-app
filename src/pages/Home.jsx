@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import AdvertisementProperty from "../components/sections/AdvertisementProperty";
+import Articles from "../components/sections/Articles";
 import FurnishedProperties from "../components/sections/FurnishedProperties";
 import Hero from "../components/sections/Hero";
 import NearByProperty from "../components/sections/NearByProperty";
@@ -18,6 +19,7 @@ export default function Home() {
       <SelectBudget />
       <OwnerProperty />
       <FurnishedProperties />
+      <Articles />
     </>
   );
 }

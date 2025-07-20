@@ -4,18 +4,18 @@ import LikeButton from "../shared/LikeButton";
 export default function AdvertisementProperty() {
   return (
     <section id="advertisement-property">
-      <div className="space-y-5">
-        <div className="max-w-base mx-auto flex-between px-5">
+      <div className="max-w-base mx-auto space-y-5">
+        <div className=" flex-between px-5">
           <h2>Advertisement Property</h2>
           <Link to="/" className="text-sm text-theme-main">
             See all
           </Link>
         </div>
-        <div className="scroll-none px-5">
+        <div className=" px-5">
           <div className="flex-center gap-5">
             <Link
               to="/"
-              className="h-38.75 flex rounded-lg shadow-properties overflow-hidden"
+              className="h-38.75 w-full flex rounded-lg shadow-properties overflow-hidden"
             >
               <div className="w-1/3 relative">
                 <span className="h-6.75 flex-center absolute bottom-2.5 left-2.5 bg-theme-main-3 text-theme-main font-medium text-sm rounded px-2.5">
