@@ -33,7 +33,7 @@ export default function Settings() {
           <button className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3">
             <div className="flex items-center gap-2.5">
               <img
-                src="/src/assets/icons/language.png"
+                src="./src/assets/icons/language.png"
                 alt="Language Icon"
                 loading="lazy"
                 className="size-6 shrink-0"
@@ -41,35 +41,35 @@ export default function Settings() {
               Language
             </div>
 
-            <img src="/src/assets/icons/angle-right.svg" alt="Angle Right" />
+            <img src="./src/assets/icons/angle-right.svg" alt="Angle Right" />
           </button>
         </li>
         <li>
           <button className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3">
             <div className="flex items-center gap-2.5">
               <img
-                src="/src/assets/icons/light-mode.svg"
+                src="./src/assets/icons/light-mode.svg"
                 alt="Sun Icon"
                 loading="lazy"
               />
               App Theme
             </div>
 
-            <img src="/src/assets/icons/angle-right.svg" alt="Angle Right" />
+            <img src="./src/assets/icons/angle-right.svg" alt="Angle Right" />
           </button>
         </li>
         <li>
           <button className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3">
             <div className="flex items-center gap-2.5">
               <img
-                src="/src/assets/icons/trash.svg"
+                src="./src/assets/icons/trash.svg"
                 alt="Trash Icon"
                 loading="lazy"
               />
               Language
             </div>
 
-            <img src="/src/assets/icons/angle-right.svg" alt="Angle Right" />
+            <img src="./src/assets/icons/angle-right.svg" alt="Angle Right" />
           </button>
         </li>
       </ul>
