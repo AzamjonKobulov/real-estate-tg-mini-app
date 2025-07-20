@@ -25,14 +25,17 @@ export default function Properties() {
                 <div className="h-30 relative">
                   <div className="flex-between relative z-10 p-2.5">
                     <div className="h-6 flex items-center gap-1.25 bg-theme-warning text-white text-xs font-medium rounded px-1.25">
-                      <img src="./src/assets/icons/premium.svg" alt="Premium" />
+                      <img
+                        src="/public/assets/icons/premium.svg"
+                        alt="Premium"
+                      />
                       Premium
                     </div>
 
                     <LikeButton />
                   </div>
                   <img
-                    src="./src/assets/images/property-slide-1.jpg"
+                    src="/public/assets/images/property-slide-1.jpg"
                     alt="Slide"
                     className="size-full absolute inset-0 object-cover"
                     loading="lazy"
@@ -40,7 +43,10 @@ export default function Properties() {
                 </div>
                 <div className="space-y-2 bg-theme-main-5 rounded-b-lg p-2.5">
                   <div className="flex items-center gap-1.25">
-                    <img src="./src/assets/icons/builidng.svg" alt="Building" />
+                    <img
+                      src="/public/assets/icons/builidng.svg"
+                      alt="Building"
+                    />
                     <span className="text-theme-small-text">Villa</span>
                   </div>
                   <div className="flex-between">
@@ -56,7 +62,7 @@ export default function Properties() {
                   </h4>
                   <div className="flex gap-2.5">
                     <img
-                      src="./src/assets/icons/location-gray.svg"
+                      src="/public/assets/icons/location-gray.svg"
                       alt="Location"
                     />
                     <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">

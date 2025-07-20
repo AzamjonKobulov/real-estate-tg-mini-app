@@ -11,8 +11,8 @@ export default function LikeButton() {
       <img
         src={
           liked
-            ? "./src/assets/icons/heart-fill.svg"
-            : "./src/assets/icons/heart-emty.svg"
+            ? "/public/assets/icons/heart-fill.svg"
+            : "/public/assets/icons/heart-emty.svg"
         }
         alt="Heart Icon"
       />

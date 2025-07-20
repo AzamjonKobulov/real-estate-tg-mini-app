@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="flex-between">
           {/* Logo */}
           <Link to="/">
-            <img src="./src/assets/icons/logo.svg" alt="Logo" />
+            <img src="/public/assets/icons/logo.svg" alt="Logo" />
           </Link>
 
           <div className="flex items-center gap-2.5">
@@ -17,7 +17,7 @@ export default function Navbar() {
             <LocationDropdown />
 
             <button className="size-8.5 shrink-0 flex-center border border-theme-main-3 rounded-full cursor-pointer hover:bg-theme-main-5 smooth-200">
-              <img src="./src/assets/icons/bell.svg" alt="Bell" />
+              <img src="/public/assets/icons/bell.svg" alt="Bell" />
             </button>
           </div>
         </div>

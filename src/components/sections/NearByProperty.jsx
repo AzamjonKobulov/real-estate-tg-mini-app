@@ -32,7 +32,7 @@ export default function NearByProperty() {
           <div className="w-[197px] h-[285px] mx-auto relative flex flex-col justify-between items-end rounded-xl overflow-hidden shadow-properties p-2.5">
             <LikeButton />
             <img
-              src="./src/assets/images/near-by-property-1.jpg"
+              src="/public/assets/images/property-slide-1.jpg"
               alt="Image"
               loading="lazy"
               className="size-full absolute inset-0 object-cover"
@@ -48,7 +48,7 @@ export default function NearByProperty() {
               </div>
               <div className="flex items-center gap-1.25">
                 <img
-                  src="./src/assets/icons/builidng.svg"
+                  src="/public/assets/icons/builidng.svg"
                   alt="Building"
                   className="size-4"
                 />
@@ -56,7 +56,7 @@ export default function NearByProperty() {
               </div>
               <div className="flex gap-2.5">
                 <img
-                  src="./src/assets/icons/location-gray.svg"
+                  src="/public/assets/icons/location-gray.svg"
                   alt="Location"
                 />
                 <span className="font-medium text-theme-small-text text-xs/[1.2] line-clamp-1">

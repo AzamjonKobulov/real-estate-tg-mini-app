@@ -18,11 +18,11 @@ export default function LocationDropdonw() {
         className="h-10 min-w-45 flex-between gap-2.5 text-theme-main tex-sm font-poppins bg-theme-main-5 rounded-full cursor-pointer px-3"
       >
         <div className="flex items-center gap-2.5">
-          <img src="./src/assets/icons/location.svg" alt="Location" />
+          <img src="/public/assets/icons/location.svg" alt="Location" />
           <span>{selectedLocation}</span>
         </div>
         <img
-          src="./src/assets/icons/angle-down.svg"
+          src="/public/assets/icons/angle-down.svg"
           alt="Angle down"
           className={`transition-transform duration-300 ${
             isOpen ? "rotate-180" : ""

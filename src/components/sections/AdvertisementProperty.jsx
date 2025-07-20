@@ -22,7 +22,7 @@ export default function AdvertisementProperty() {
                   For Rent
                 </span>
                 <img
-                  src="./src/assets/images/for-rent.jpg"
+                  src="/public/assets/images/for-rent.jpg"
                   alt="Image"
                   loading="lazy"
                   className="size-full object-cover"
@@ -37,7 +37,7 @@ export default function AdvertisementProperty() {
                   <LikeButton />
                 </div>
                 <div className="flex items-center gap-1.25">
-                  <img src="./src/assets/icons/builidng.svg" alt="Building" />
+                  <img src="/public/assets/icons/builidng.svg" alt="Building" />
                   <span className="text-theme-small-text">Villa</span>
                 </div>
                 <h4 className="font-medium text-theme-main-text text-lg/[1.2]">
@@ -45,7 +45,7 @@ export default function AdvertisementProperty() {
                 </h4>
                 <div className="flex gap-2.5">
                   <img
-                    src="./src/assets/icons/location-gray.svg"
+                    src="/public/assets/icons/location-gray.svg"
                     alt="Location"
                   />
                   <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">
