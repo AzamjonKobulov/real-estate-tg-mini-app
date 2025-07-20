@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 @import "tailwindcss";
 
@@ -23,10 +23,53 @@
   --color-theme-main-5: #f8fafd;
 
   --font-lato: "Lato", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-urbanist: "Urbanist", sans-serif;
+
+  --background-image-hero: linear-gradient(286.17deg, #668ec9 0%, #97b2db 100%);
+
+  --shadow-hero: 2.87px 8.62px 15px 0px #2b62b41a, 0px 24px 80px 0px #4343431f;
+  --shadow-properties: 3px 4px 20px 0px #0000000f;
 }
 
 @layer base {
   body {
-    @apply font-lato overflow-x-hidden;
+    @apply font-lato text-theme-main-text overflow-x-hidden pb-24;
   }
+
+  h2 {
+    @apply font-medium text-lg/[1.2];
+  }
+}
+
+@utility flex-between {
+  @apply flex items-center justify-between;
+}
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+
+@utility smooth-200 {
+  @apply transition-all duration-200;
+}
+
+.scroll-none::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.mySwiper2.swiper-wrapper {
+  @apply pb-20;
+}
+
+.swiper-pagination {
+  @apply absolute z-20 -bottom-20;
+}
+
+.swiper-pagination-bullet {
+  @apply !w-2.5 !h-1 !bg-theme-main-3 !rounded-full smooth-200;
+}
+
+.swiper-pagination-bullet-active {
+  @apply !w-5 !bg-theme-main;
 }
