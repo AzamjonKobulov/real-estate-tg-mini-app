@@ -144,6 +144,10 @@ export default function NearByProperty() {
                 to="/"
                 className="h-[285px] mx-auto relative flex flex-col justify-between items-end rounded-xl overflow-hidden shadow-properties p-2.5"
               >
+                <span className="absolute top-0 left-0 z-10 h-5.5 bg-theme-main-5 flex items-center gap-1.25 text-theme-warning font-medium text-[11px] rounded px-1.25">
+                  <img src="./assets/icons/premium-gold.svg" alt="Crown icon" />
+                  Premium
+                </span>
                 <LikeButton />
                 <img
                   src="./assets/images/near-by-property-2.jpg"
