@@ -4,7 +4,7 @@ export default function SearchBar() {
   return (
     <div className="relative h-12.5">
       <label htmlFor="search" className="absolute top-3.75 left-3.75">
-        <img src="/public/assets/icons/search.svg" alt="search" />
+        <img src="./assets/icons/search.svg" alt="search" />
       </label>
       <input
         id="search"
@@ -14,11 +14,7 @@ export default function SearchBar() {
       />
 
       <button className="absolute top-3.75 right-3.75 cursor-pointer">
-        <img
-          src="/public/assets/icons/filter.png"
-          alt="Filter"
-          className="size-5"
-        />
+        <img src="./assets/icons/filter.png" alt="Filter" className="size-5" />
       </button>
     </div>
   );

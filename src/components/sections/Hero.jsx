@@ -39,7 +39,7 @@ export default function Hero() {
           onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
           className="mySwiper bg-theme-main-2 bg-no-repeat bg-cover rounded-2xl shadow-hero"
           style={{
-            backgroundImage: "url('/public/assets/images/bg-hero-box.png')",
+            backgroundImage: "url('./assets/images/bg-hero-box.png')",
           }}
         >
           {[...Array(totalSlides)].map((_, i) => (
@@ -54,7 +54,7 @@ export default function Hero() {
                   </button>
                 </div>
                 <img
-                  src="/public/assets/images/hero.png"
+                  src="./assets/images/hero.png"
                   alt="House"
                   className="max-w-48 absolute bottom-0 right-0 z-10"
                 />
