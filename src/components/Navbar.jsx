@@ -5,7 +5,7 @@ import LocationDropdown from "./LocationDropdown";
 export default function Navbar() {
   return (
     <header>
-      <nav className="max-w-base mx-auto space-y-5 pt-2.5 px-5">
+      <nav className="max-w-base mx-auto space-y-5 pt-5 px-5">
         <div className="flex-between">
           {/* Logo */}
           <Link to="/">

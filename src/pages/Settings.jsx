@@ -15,9 +15,9 @@ export default function Settings() {
             <path
               d="M15 5.30273L9 12.3027L15 19.3027"
               stroke="#2B62B4"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
           </svg>
         </button>

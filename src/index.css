@@ -56,6 +56,14 @@
   @apply transition-all duration-200;
 }
 
+@utility btn-primary {
+  @apply h-10 bg-theme-main text-white rounded-lg;
+}
+
+@utility btn-secondary {
+  @apply h-10 bg-theme-main-5 text-theme-main rounded-lg;
+}
+
 .scroll-none::-webkit-scrollbar {
   @apply hidden;
 }
