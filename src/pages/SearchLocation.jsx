@@ -37,7 +37,7 @@ export default function SearchLocation() {
               <p className="text-lg font-medium text-theme-small-text">
                 Recent Search
               </p>
-              <ul>
+              <ul className="space-y-2.5">
                 <li>
                   <Link
                     to="/"

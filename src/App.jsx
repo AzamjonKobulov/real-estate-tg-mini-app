@@ -4,6 +4,7 @@ import AppLayout from "./layout/AppLayout";
 import Search from "./pages/Search";
 import Filter from "./pages/Filter";
 import SearchLocation from "./pages/SearchLocation";
+import Notifications from "./pages/Notifications";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
           <Route path="/filter" element={<Filter />} />
-          <Route path="/search-location" element={<SearchLocation />} />
+          <Route path="/search-locations" element={<SearchLocation />} />
+          <Route path="/notifications" element={<Notifications />} />
         </Routes>
       </AppLayout>
     </BrowserRouter>
