@@ -40,7 +40,7 @@ export default function Settings() {
       <ul className="space-y-5 text-lg font-medium text-theme-main-text">
         <li>
           <Link
-            to="language"
+            to="/settings/language"
             className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3"
           >
             <div className="flex items-center gap-2.5">

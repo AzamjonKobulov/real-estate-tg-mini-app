@@ -23,7 +23,7 @@ function App() {
           <Route path="/notifications" element={<Notifications />} />
           <Route path="/property-details" element={<PropertyDetails />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/language" element={<Language />} />
+          <Route path="/settings/language" element={<Language />} />
         </Routes>
       </AppLayout>
     </BrowserRouter>
