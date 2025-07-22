@@ -14,7 +14,7 @@ export default function AdvertisementProperty() {
         <div className=" px-5">
           <div className="flex-center gap-5">
             <Link
-              to="/"
+              to="/property-details"
               className="h-38.75 w-full flex rounded-lg shadow-properties overflow-hidden"
             >
               <div className="w-1/3 relative">
@@ -30,7 +30,7 @@ export default function AdvertisementProperty() {
               </div>
               <div className="flex-1 space-y-2.5 bg-theme-main-5 py-3.75 px-2.5">
                 <div className="flex-between">
-                  <h4 className="text-xl font-semibold text-theme-main leading-[1.2]">
+                  <h4 className="text-xl font-semibold text-theme-main ">
                     $290 <span className="font-medium text-base">/month</span>
                   </h4>
 
@@ -45,7 +45,7 @@ export default function AdvertisementProperty() {
                 </h4>
                 <div className="flex gap-2.5">
                   <img src="./assets/icons/location-gray.svg" alt="Location" />
-                  <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">
+                  <span className="font-medium text-theme-small-text  line-clamp-1">
                     Serenity Lane, Blissfulville, CA 98765
                   </span>
                 </div>

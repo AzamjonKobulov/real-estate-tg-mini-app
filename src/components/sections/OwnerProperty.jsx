@@ -52,10 +52,7 @@ export default function OwnerProperty() {
                 <h5 className="text-lg/[1.2] text-theme-main-text font-medium line-clamp-1">
                   {p.title}
                 </h5>
-                <Link
-                  to="/"
-                  className="font-medium leading-[1.2] text-theme-main"
-                >
+                <Link to="/" className="font-medium  text-theme-main">
                   {p.owner}
                 </Link>
               </div>

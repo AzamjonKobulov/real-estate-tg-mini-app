@@ -64,7 +64,7 @@ export default function Notifications() {
                     <h5 className="text-xl/[1.2] font-medium">
                       Added New Property{" "}
                     </h5>
-                    <div className="space-y-1.25 font-medium text-xs text-theme-small-text leading-[1.2] ">
+                    <div className="space-y-1.25 font-medium text-xs text-theme-small-text  ">
                       <p className="line-clamp-2">
                         It is a long established fact that a reader will be
                       </p>
@@ -93,7 +93,7 @@ export default function Notifications() {
                     <h5 className="text-xl/[1.2] font-medium">
                       Special Offers
                     </h5>
-                    <div className="space-y-1.25 font-medium text-xs text-theme-small-text leading-[1.2] ">
+                    <div className="space-y-1.25 font-medium text-xs text-theme-small-text  ">
                       <p className="line-clamp-2">
                         Limited-time offer: Get new Property at a new special
                         price through our app.
@@ -124,7 +124,7 @@ export default function Notifications() {
                     <h5 className="text-xl/[1.2] font-medium">
                       Subscription Alert!
                     </h5>
-                    <div className="space-y-1.25 font-medium text-xs text-theme-small-text leading-[1.2] ">
+                    <div className="space-y-1.25 font-medium text-xs text-theme-small-text  ">
                       <p className="line-clamp-2">
                         It is a long established fact that a reader will be
                         .......

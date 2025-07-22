@@ -41,7 +41,7 @@ export default function SearchLocation() {
                 <li>
                   <Link
                     to="/"
-                    className="flex items-center gap-2.5 bg-theme-small-text-2 shadow-properties p-2.5"
+                    className="flex items-center gap-2.5 bg-theme-small-text-2 shadow-search-location p-2.5"
                   >
                     <div className="size-15 shrink-0 rounded overflow-hidden">
                       <img
@@ -66,7 +66,7 @@ export default function SearchLocation() {
                           src="./assets/icons/location-gray.svg"
                           alt="Location"
                         />
-                        <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">
+                        <span className="font-medium text-theme-small-text  line-clamp-1">
                           Berkshire, North Myrashire
                         </span>
                       </div>
@@ -76,7 +76,7 @@ export default function SearchLocation() {
                 <li>
                   <Link
                     to="/"
-                    className="flex items-center gap-2.5 bg-theme-small-text-2 shadow-properties p-2.5"
+                    className="flex items-center gap-2.5 bg-theme-small-text-2 shadow-search-location p-2.5"
                   >
                     <div className="size-15 shrink-0 rounded overflow-hidden">
                       <img
@@ -101,7 +101,7 @@ export default function SearchLocation() {
                           src="./assets/icons/location-gray.svg"
                           alt="Location"
                         />
-                        <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">
+                        <span className="font-medium text-theme-small-text  line-clamp-1">
                           Maldives, New City
                         </span>
                       </div>

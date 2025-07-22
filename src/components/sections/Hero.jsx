@@ -39,7 +39,7 @@ export default function Hero() {
             <SwiperSlide key={i}>
               <div className="h-32.5 relative flex items-center">
                 <div className="space-y-2.5 ml-5">
-                  <h1 className="max-w-31.5 leading-[1.2] font-medium text-sm text-white">
+                  <h1 className="max-w-31.5  font-medium text-sm text-white">
                     See how you can find a Home quickly!
                   </h1>
                   <button className="h-5.75 bg-white text-theme-main rounded font-semibold font-urbanist text-[10px] px-3">

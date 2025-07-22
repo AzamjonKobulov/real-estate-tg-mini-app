@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SearchBar() {
   return (
@@ -13,9 +13,12 @@ export default function SearchBar() {
         placeholder="Search "
       />
 
-      <button className="absolute top-3.75 right-3.75 cursor-pointer">
+      <Link
+        to="/filter"
+        className="absolute top-3.75 right-3.75 cursor-pointer"
+      >
         <img src="./assets/icons/filter.png" alt="Filter" className="size-5" />
-      </button>
+      </Link>
     </div>
   );
 }

@@ -23,6 +23,7 @@
   --color-theme-main-3: #cad8ec;
   --color-theme-main-4: #dfe7f4;
   --color-theme-main-5: #f8fafd;
+  --color-theme-main-6: #dde6f3;
 
   --font-lato: "Lato", sans-serif;
   --font-poppins: "Poppins", sans-serif;
@@ -33,11 +34,13 @@
 
   --shadow-hero: 2.87px 8.62px 15px 0px #2b62b41a, 0px 24px 80px 0px #4343431f;
   --shadow-properties: 3px 4px 20px 0px #0000000f;
+  --shadow-search-location: 0px 2px 14px 0px #c5c6c733;
+  --shadow-contact-owner: 3px 4px 20px 0px #0000000f;
 }
 
 @layer base {
   body {
-    @apply font-lato text-theme-main-text overflow-x-hidden pb-24;
+    @apply font-lato text-theme-main-text leading-[1.2] overflow-x-hidden pb-36;
   }
 
   h2 {

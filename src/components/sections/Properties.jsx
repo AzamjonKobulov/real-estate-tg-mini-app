@@ -15,7 +15,7 @@ export default function Properties() {
         <div className="scroll-none overflow-auto pb-5 px-5">
           <div className="min-w-max flex items-center gap-5">
             <Link
-              to="/"
+              to="/property-details"
               className="w-58.5 rounded-xl shadow-properties overflow-hidden"
             >
               <div className="h-30 relative">
@@ -47,19 +47,19 @@ export default function Properties() {
                     For Sell
                   </span>
                 </div>
-                <h4 className="font-medium text-theme-main-text leading-[1.2]">
+                <h4 className="font-medium text-theme-main-text ">
                   Modern Haven Villa{" "}
                 </h4>
                 <div className="flex gap-2.5">
                   <img src="./assets/icons/location-gray.svg" alt="Location" />
-                  <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">
+                  <span className="font-medium text-theme-small-text  line-clamp-1">
                     Serenity Lane, Blissfulville, CA 98765
                   </span>
                 </div>
               </div>
             </Link>
             <Link
-              to="/"
+              to="/property-details"
               className="w-58.5 rounded-xl shadow-properties overflow-hidden"
             >
               <div className="h-30 relative">
@@ -91,19 +91,19 @@ export default function Properties() {
                     For Rent
                   </span>
                 </div>
-                <h4 className="font-medium text-theme-main-text leading-[1.2]">
+                <h4 className="font-medium text-theme-main-text ">
                   Sun & Shine Hills
                 </h4>
                 <div className="flex gap-2.5">
                   <img src="./assets/icons/location-gray.svg" alt="Location" />
-                  <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">
+                  <span className="font-medium text-theme-small-text  line-clamp-1">
                     Serenity Lane, Blissfulville, CA 98765
                   </span>
                 </div>
               </div>
             </Link>
             <Link
-              to="/"
+              to="/property-details"
               className="w-58.5 rounded-xl shadow-properties overflow-hidden"
             >
               <div className="h-30 relative">
@@ -135,12 +135,12 @@ export default function Properties() {
                     For Rent
                   </span>
                 </div>
-                <h4 className="font-medium text-theme-main-text leading-[1.2]">
+                <h4 className="font-medium text-theme-main-text ">
                   Sun & Shine Hills
                 </h4>
                 <div className="flex gap-2.5">
                   <img src="./assets/icons/location-gray.svg" alt="Location" />
-                  <span className="font-medium text-theme-small-text leading-[1.2] line-clamp-1">
+                  <span className="font-medium text-theme-small-text  line-clamp-1">
                     Serenity Lane, Blissfulville, CA 98765
                   </span>
                 </div>

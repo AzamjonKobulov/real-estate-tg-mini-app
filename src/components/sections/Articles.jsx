@@ -22,11 +22,11 @@ export default function Articles() {
                 />
               </div>
               <div className="space-y-2.5 py-2.5">
-                <h6 className="leading-[1.2] font-medium text-theme-main-text line-clamp-2">
+                <h6 className=" font-medium text-theme-main-text line-clamp-2">
                   Residential property prices rise by 6% in Q2 2023: pro...
                 </h6>
 
-                <div className="space-y-2.5 text-theme-small-text text-xs leading-[1]">
+                <div className="space-y-2.5 text-theme-small-text text-xs ">
                   <p>
                     The Weighed average price of residential properties across 8
                     cities reached ...
@@ -50,11 +50,11 @@ export default function Articles() {
                 />
               </div>
               <div className="space-y-2.5 py-2.5">
-                <h6 className="leading-[1.2] font-medium text-theme-main-text line-clamp-2">
+                <h6 className=" font-medium text-theme-main-text line-clamp-2">
                   Non Residential property prices rise by 4% in Q1 2023: pro...
                 </h6>
 
-                <div className="space-y-2.5 text-theme-small-text text-xs leading-[1]">
+                <div className="space-y-2.5 text-theme-small-text text-xs ">
                   <p>
                     The Weighed average price of residential properties across 8
                     cities reached ...

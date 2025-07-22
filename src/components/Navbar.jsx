@@ -16,9 +16,12 @@ export default function Navbar() {
             {/* Location Dropdown */}
             <LocationDropdown />
 
-            <button className="size-8.5 shrink-0 flex-center border border-theme-main-3 rounded-full cursor-pointer hover:bg-theme-main-5 smooth-200">
+            <Link
+              to="/notifications"
+              className="size-8.5 shrink-0 flex-center border border-theme-main-3 rounded-full cursor-pointer hover:bg-theme-main-5 smooth-200"
+            >
               <img src="./assets/icons/bell.svg" alt="Bell" />
-            </button>
+            </Link>
           </div>
         </div>
         <SearchBar />

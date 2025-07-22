@@ -1,8 +1,19 @@
-import React from "react";
+import { useState } from "react";
+import Theme from "../components/Theme";
 
 export default function Settings() {
+  const [showThemeSelector, setShowThemeSelector] = useState(false);
+
+  function toggleThemeSelector() {
+    setShowThemeSelector((prev) => !prev);
+  }
+
+  if (showThemeSelector) {
+    return <Theme toggleThemeSelector={toggleThemeSelector} />;
+  }
+
   return (
-    <div className="max-w-base mx-auto space-y-5 py-2.5 px-5">
+    <div className="max-w-base mx-auto space-y-5 p-5">
       <div className="flex items-center gap-2.5">
         <button>
           <svg
@@ -21,10 +32,7 @@ export default function Settings() {
             />
           </svg>
         </button>
-
-        <h4 className="leading-[1.2] font-bold text-xl text-theme-main-text">
-          Settings
-        </h4>
+        <h4 className="font-semibold text-xl text-theme-main-text">Settings</h4>
       </div>
 
       {/* Settings Items */}
@@ -40,21 +48,23 @@ export default function Settings() {
               />
               Language
             </div>
-
             <img src="./assets/icons/angle-right.svg" alt="Angle Right" />
           </button>
         </li>
         <li>
-          <button className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3">
+          <button
+            className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3"
+            onClick={() => setShowThemeSelector(true)}
+          >
             <div className="flex items-center gap-2.5">
               <img
                 src="./assets/icons/light-mode.svg"
                 alt="Sun Icon"
                 loading="lazy"
+                className="size-6 shrink-0"
               />
               App Theme
             </div>
-
             <img src="./assets/icons/angle-right.svg" alt="Angle Right" />
           </button>
         </li>
@@ -65,10 +75,10 @@ export default function Settings() {
                 src="./assets/icons/trash.svg"
                 alt="Trash Icon"
                 loading="lazy"
+                className="size-6 shrink-0"
               />
-              Language
+              Delete Account
             </div>
-
             <img src="./assets/icons/angle-right.svg" alt="Angle Right" />
           </button>
         </li>

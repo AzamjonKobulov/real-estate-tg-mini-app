@@ -5,6 +5,10 @@ import Search from "./pages/Search";
 import Filter from "./pages/Filter";
 import SearchLocation from "./pages/SearchLocation";
 import Notifications from "./pages/Notifications";
+import PropertyDetails from "./pages/PropertyDetails";
+import Gallery from "./pages/Gallery";
+import Language from "./pages/Language";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -12,10 +16,14 @@ function App() {
       <AppLayout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="/search" element={<Search />} />
           <Route path="/filter" element={<Filter />} />
           <Route path="/search-locations" element={<SearchLocation />} />
           <Route path="/notifications" element={<Notifications />} />
+          <Route path="/property-details" element={<PropertyDetails />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/language" element={<Language />} />
         </Routes>
       </AppLayout>
     </BrowserRouter>
