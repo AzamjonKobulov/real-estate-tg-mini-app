@@ -21,7 +21,7 @@ export default function NearByProperty() {
 
   return (
     <section id="advertisement-property">
-      <div className=" space-y-5 pb-5">
+      <div className="space-y-5 py-5">
         <div className="max-w-base mx-auto space-y-5 px-5">
           <h2>Select BHK</h2>
           <ButtonGroup
