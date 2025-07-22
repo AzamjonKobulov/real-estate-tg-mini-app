@@ -9,32 +9,32 @@ export default function LanguageSelector() {
     {
       id: "english",
       name: "English",
-      flag: "./assets/images/flag-us.png",
+      flag: "../assets/images/flag-us.png",
     },
     {
       id: "hindi",
       name: "Hindi",
-      flag: "./assets/images/flag-india.png",
+      flag: "../assets/images/flag-india.png",
     },
     {
       id: "turkish",
       name: "Turkish",
-      flag: "./assets/images/flag-turkish.png",
+      flag: "../assets/images/flag-turkish.png",
     },
     {
       id: "french",
       name: "French",
-      flag: "./assets/images/flag-france.png",
+      flag: "../assets/images/flag-france.png",
     },
     {
       id: "german",
       name: "German",
-      flag: "./assets/images/flag-germany.png",
+      flag: "../assets/images/flag-germany.png",
     },
     {
       id: "arabic",
       name: "Arabic",
-      flag: "./assets/images/flag-arabic.png",
+      flag: "../assets/images/flag-arabic.png",
     },
   ];
 
