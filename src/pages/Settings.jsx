@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import Theme from "../components/Theme";
 
@@ -38,7 +39,10 @@ export default function Settings() {
       {/* Settings Items */}
       <ul className="space-y-5 text-lg font-medium text-theme-main-text">
         <li>
-          <button className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3">
+          <Link
+            to="language"
+            className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3"
+          >
             <div className="flex items-center gap-2.5">
               <img
                 src="./assets/icons/language.png"
@@ -49,7 +53,7 @@ export default function Settings() {
               Language
             </div>
             <img src="./assets/icons/angle-right.svg" alt="Angle Right" />
-          </button>
+          </Link>
         </li>
         <li>
           <button
