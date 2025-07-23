@@ -66,9 +66,9 @@ export default function NearByProperty() {
                   loading="lazy"
                   className="size-full absolute inset-0 object-cover"
                 />
-                <div className="w-full space-y-1.25 bg-theme-main-5 rounded-lg relative z-10 p-2.5">
+                <div className="w-full space-y-1.25 bg-theme-main-5 dark:bg-theme-main-text rounded-lg relative z-10 p-2.5">
                   <div className="flex-between">
-                    <h3 className="text-lg/[1.2] font-medium text-theme-main-text">
+                    <h3 className="text-lg/[1.2] font-medium text-theme-main-text dark:text-white">
                       $2900
                     </h3>
                     <span className="h-5.5 flex-center bg-theme-main-4 text-theme-main text-xs rounded p-1.25">
@@ -81,14 +81,16 @@ export default function NearByProperty() {
                       alt="Apartment"
                       className="size-4"
                     />
-                    <span className="text-theme-small-text">Apartment</span>
+                    <span className="text-theme-small-text dark:text-white">
+                      Apartment
+                    </span>
                   </div>
                   <div className="flex gap-2.5">
                     <img
                       src="./assets/icons/location-gray.svg"
                       alt="Location"
                     />
-                    <span className="font-medium text-theme-small-text text-xs/[1.2] line-clamp-1">
+                    <span className="font-medium text-theme-small-text dark:text-white text-xs/[1.2] line-clamp-1">
                       Cityscape Central, NY 10987
                     </span>
                   </div>
@@ -107,9 +109,9 @@ export default function NearByProperty() {
                   loading="lazy"
                   className="size-full absolute inset-0 object-cover"
                 />
-                <div className="w-full space-y-1.25 bg-theme-main-5 rounded-lg relative z-10 p-2.5">
+                <div className="w-full space-y-1.25 bg-theme-main-5 dark:bg-theme-main-text rounded-lg relative z-10 p-2.5">
                   <div className="flex-between">
-                    <h3 className="text-lg/[1.2] font-medium text-theme-main-text">
+                    <h3 className="text-lg/[1.2] font-medium text-theme-main-text dark:text-white">
                       $2900
                     </h3>
                     <span className="h-5.5 flex-center bg-theme-main-4 text-theme-main text-xs rounded p-1.25">
@@ -122,14 +124,16 @@ export default function NearByProperty() {
                       alt="Villa"
                       className="size-4"
                     />
-                    <span className="text-theme-small-text">Villa</span>
+                    <span className="text-theme-small-text dark:text-white">
+                      Villa
+                    </span>
                   </div>
                   <div className="flex gap-2.5">
                     <img
                       src="./assets/icons/location-gray.svg"
                       alt="Location"
                     />
-                    <span className="font-medium text-theme-small-text text-xs/[1.2] line-clamp-1">
+                    <span className="font-medium text-theme-small-text dark:text-white text-xs/[1.2] line-clamp-1">
                       Coastal Way, Breezy Shores
                     </span>
                   </div>
@@ -152,9 +156,9 @@ export default function NearByProperty() {
                   loading="lazy"
                   className="size-full absolute inset-0 object-cover"
                 />
-                <div className="w-full space-y-1.25 bg-theme-main-5 rounded-lg relative z-10 p-2.5">
+                <div className="w-full space-y-1.25 bg-theme-main-5 dark:bg-theme-main-text rounded-lg relative z-10 p-2.5">
                   <div className="flex-between">
-                    <h3 className="text-lg/[1.2] font-medium text-theme-main-text">
+                    <h3 className="text-lg/[1.2] font-medium text-theme-main-text dark:text-white">
                       $1200/month
                     </h3>
                     <span className="h-5.5 flex-center bg-theme-main-4 text-theme-main text-xs rounded p-1.25">
@@ -167,14 +171,16 @@ export default function NearByProperty() {
                       alt="House"
                       className="size-4"
                     />
-                    <span className="text-theme-small-text">House</span>
+                    <span className="text-theme-small-text dark:text-white">
+                      House
+                    </span>
                   </div>
                   <div className="flex gap-2.5">
                     <img
                       src="./assets/icons/location-gray.svg"
                       alt="Location"
                     />
-                    <span className="font-medium text-theme-small-text text-xs/[1.2] line-clamp-1">
+                    <span className="font-medium text-theme-small-text dark:text-white text-xs/[1.2] line-clamp-1">
                       Sunflower Fields, TX 12345
                     </span>
                   </div>

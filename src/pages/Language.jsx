@@ -22,7 +22,7 @@ export default function Language() {
           </svg>
         </button>
 
-        <h4 className="font-bold text-xl text-theme-main-text">
+        <h4 className="font-semibold text-xl text-theme-main-text dark:text-white">
           Choose Your Language
         </h4>
       </div>

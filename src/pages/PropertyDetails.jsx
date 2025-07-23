@@ -40,13 +40,13 @@ export default function PropertyDetails() {
                     alt="Villa"
                     className="size-5"
                   />
-                  <span className="font-medium">Villa</span>
+                  <span className="font-medium dark:text-white">Villa</span>
                 </div>
                 <span className="h-6.75 flex-center bg-theme-main-5 text-theme-main font-medium text-sm rounded px-2.5">
                   For Rent
                 </span>
               </div>
-              <div className="flex-between text-lg font-medium ">
+              <div className="flex-between text-lg font-medium dark:text-white">
                 <p>Modern Haven Villa</p>
                 <p className="text-theme-main">$1200 /month</p>
               </div>
@@ -60,17 +60,17 @@ export default function PropertyDetails() {
 
             <div className="overflow-auto scroll-none px-5">
               <div className="min-w-max flex items-center gap-2.5">
-                <span className="h-12 flex items-center gap-1.25 bg-theme-main-5 font-medium rounded-xl px-3.75">
+                <span className="h-12 flex items-center gap-1.25 bg-theme-main-5 dark:bg-theme-main-text dark:text-white font-medium rounded-xl px-3.75">
                   <img src="./assets/icons/bed.svg" alt="Bed Icon" />2 BHK
                 </span>
-                <span className="h-12 flex items-center gap-1.25 bg-theme-main-5 font-medium rounded-xl px-3.75">
+                <span className="h-12 flex items-center gap-1.25 bg-theme-main-5 dark:bg-theme-main-text dark:text-white font-medium rounded-xl px-3.75">
                   <img
                     src="./assets/icons/maximize-square.svg"
                     alt="Maximize Square Icon"
                   />
                   1,928 sqft
                 </span>
-                <span className="h-12 flex items-center gap-1.25 bg-theme-main-5 font-medium rounded-xl px-3.75">
+                <span className="h-12 flex items-center gap-1.25 bg-theme-main-5 dark:bg-theme-main-text dark:text-white font-medium rounded-xl px-3.75">
                   <img
                     src="./assets/icons/furniture.svg"
                     alt="Furniture Icon"
@@ -83,7 +83,7 @@ export default function PropertyDetails() {
             <div className="space-y-5 px-5">
               <div className="h-px bg-theme-gray-light"></div>
 
-              <div className="flex-between bg-theme-main-5 rounded-lg px-2.5 py-3.75">
+              <div className="flex-between bg-theme-main-5 dark:bg-theme-main-text rounded-lg px-2.5 py-3.75">
                 <div className="flex items-center gap-2.5">
                   <div className="size-12.5 shrink-0 bg-theme-main-6 rounded-full overflow-hidden">
                     <img
@@ -94,7 +94,9 @@ export default function PropertyDetails() {
                   </div>
 
                   <div className="space-y-1.25">
-                    <p className="font-medium ">Louise Vuitton</p>
+                    <p className="font-medium dark:text-white">
+                      Louise Vuitton
+                    </p>
                     <p className="text-theme-small-text text-sm/3.5">
                       Property owner
                     </p>
@@ -118,7 +120,9 @@ export default function PropertyDetails() {
               </div>
 
               <div className="space-y-2.5">
-                <p className="text-lg/5.5 font-medium">Description</p>
+                <p className="text-lg/5.5 font-medium dark:text-white">
+                  Description
+                </p>
                 <p className="text-theme-small-text">
                   This is a Well-designed 3 BHK Apartment available for rent. It
                   is situated in a prime It is situated in location of Maldives
@@ -127,7 +131,9 @@ export default function PropertyDetails() {
               </div>
 
               <div className="space-y-2.5">
-                <p className="text-lg/5.5 font-medium">Photo Gallery</p>
+                <p className="text-lg/5.5 font-medium dark:text-white">
+                  Photo Gallery
+                </p>
                 <div className="grid grid-cols-3 gap-5">
                   <div className="h-17.5 border border-theme-main-4 rounded-lg overflow-hidden">
                     <img
@@ -160,8 +166,10 @@ export default function PropertyDetails() {
               </div>
 
               <div className="space-y-2.5">
-                <p className="text-lg/5.5 font-medium">Location</p>
-                <div className="h-42.5 relative rounded-lg overflow-hidden">
+                <p className="text-lg/5.5 font-medium dark:text-white">
+                  Location
+                </p>
+                <div className="h-42.5 relative rounded-xl overflow-hidden">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1720.9870680661804!2d106.85471948766809!3d-6.527585391196998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c124db7e8733%3A0xecb9285caaa1b5d5!2sJl.%20Raya%20Sirkuit%20Sentul%2C%20Kabupaten%20Bogor%2C%20Jawa%20Barat%2016810%2C%20Indonesia!5e0!3m2!1sen!2s!4v1753181043194!5m2!1sen!2s"
                     className="size-full object-cover"
@@ -170,70 +178,82 @@ export default function PropertyDetails() {
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                   ></iframe>
-                  <button className="h-12 absolute w-full bottom-0 z-10 font-medium bg-theme-main-5 rounded-xl">
+                  <button className="h-12 absolute w-full bottom-0 z-10 font-medium bg-theme-main-5 dark:bg-theme-main-text dark:text-white rounded-xl">
                     View all On Map
                   </button>
                 </div>
               </div>
 
               <div className="space-y-2.5">
-                <p className="text-lg/5.5 font-medium">Extra Facilities</p>
+                <p className="text-lg/5.5 font-medium dark:text-white">
+                  Extra Facilities
+                </p>
                 <div className="space-y-2.5">
-                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 rounded-lg px-3">
+                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 dark:bg-theme-main-text rounded-lg px-3">
                     <div className="size-7.5 shrink-0 flex-center bg-white rounded">
                       <img src="./assets/icons/car.svg" alt="Icon" />
                     </div>
 
                     <div>
-                      <p className="text-sm font-medium">Parking</p>
+                      <p className="text-sm font-medium dark:text-white">
+                        Parking
+                      </p>
                       <p className="text-xs text-theme-small-text">
                         1 car parking , 2 Bike parking
                       </p>
                     </div>
                   </div>
-                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 rounded-lg px-3">
+                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 dark:bg-theme-main-text rounded-lg px-3">
                     <div className="size-7.5 shrink-0 flex-center bg-white rounded">
                       <img src="./assets/icons/water-drops.svg" alt="Icon" />
                     </div>
 
                     <div>
-                      <p className="text-sm font-medium">Swimming Pool</p>
+                      <p className="text-sm font-medium dark:text-white">
+                        Swimming Pool
+                      </p>
                       <p className="text-xs text-theme-small-text">
                         Kiddie pool, Olympic-size pool, Lap pool
                       </p>
                     </div>
                   </div>
-                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 rounded-lg px-3">
+                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 dark:bg-theme-main-text rounded-lg px-3">
                     <div className="size-7.5 shrink-0 flex-center bg-white rounded">
                       <img src="./assets/icons/snow.svg" alt="Icon" />
                     </div>
 
                     <div>
-                      <p className="text-sm font-medium">Rooftop Garden</p>
+                      <p className="text-sm font-medium dark:text-white">
+                        Rooftop Garden
+                      </p>
                       <p className="text-xs text-theme-small-text">
                         Green roofs, Extensive roof, Intensive roof
                       </p>
                     </div>
                   </div>
-                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 rounded-lg px-3">
+                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 dark:bg-theme-main-text rounded-lg px-3">
                     <div className="size-7.5 shrink-0 flex-center bg-white rounded">
                       <img src="./assets/icons/wifi.svg" alt="Icon" />
                     </div>
 
                     <div>
-                      <p className="text-sm font-medium">Wifi</p>
+                      <p className="text-sm font-medium dark:text-white">
+                        Wifi
+                      </p>
                       <p className="text-xs text-theme-small-text">
                         Wifi with 100mbps, Always stay connected
                       </p>
                     </div>
                   </div>
-                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 rounded-lg px-3">
+                  <div className="h-13.75 flex items-center gap-3.5 bg-theme-main-5 dark:bg-theme-main-text rounded-lg px-3">
                     <div className="size-7.5 shrink-0 flex-center bg-white rounded">
                       <img src="./assets/icons/clubhouse.svg" alt="Icon" />
                     </div>
 
                     <div>
-                      <p className="text-sm font-medium">Clubhouse</p>
+                      <p className="text-sm font-medium dark:text-white">
+                        Clubhouse
+                      </p>
                       <p className="text-xs text-theme-small-text">
                         Board Game, Chess, Card game
                       </p>
@@ -243,26 +263,28 @@ export default function PropertyDetails() {
               </div>
 
               <div className="space-y-2.5">
-                <p className="text-lg/5.5 font-medium">Cost Of Living</p>
-                <div className="space-y-2.5 bg-theme-main-5 font-medium rounded-lg p-2.5">
+                <p className="text-lg/5.5 font-medium dark:text-white">
+                  Cost Of Living
+                </p>
+                <div className="space-y-2.5 bg-theme-main-5 dark:bg-theme-main-text font-medium rounded-lg p-2.5">
                   <div className="flex-between">
                     <p className="text-theme-small-text">Security Deposit</p>
-                    <p className="font-medium">$1200</p>
+                    <p className="font-medium dark:text-white">$1200</p>
                   </div>
                   <div className="flex-between">
                     <p className="text-theme-small-text">
                       Maintenance Charges <br /> (Per Month)
                     </p>
-                    <p className="font-medium">$100</p>
+                    <p className="font-medium dark:text-white">$100</p>
                   </div>
                   <div className="flex-between">
                     <p className="text-theme-small-text">Brokerage</p>
-                    <p className="font-medium">$0</p>
+                    <p className="font-medium dark:text-white">$0</p>
                   </div>
                   <div className="h-px bg-theme-gray-light"></div>
                   <div className="flex-between">
-                    <p>Total Extra Cost</p>
-                    <p className="font-medium">$1400</p>
+                    <p className="dark:text-white">Total Extra Cost</p>
+                    <p className="font-medium dark:text-white">$1400</p>
                   </div>
                 </div>
               </div>

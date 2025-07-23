@@ -9,7 +9,7 @@ export default function SearchBar() {
       <input
         id="search"
         type="text"
-        className="size-full bg-theme-main-5 rounded-lg outline-none placeholder:text-theme-gray pl-11.25 pr-13.75"
+        className="size-full bg-theme-main-5 dark:bg-theme-main-text dark:text-white rounded-lg outline-none placeholder:text-theme-gray pl-11.25 pr-13.75"
         placeholder="Search "
       />
 

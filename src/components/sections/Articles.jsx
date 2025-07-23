@@ -22,7 +22,7 @@ export default function Articles() {
                 />
               </div>
               <div className="space-y-2.5 py-2.5">
-                <h6 className=" font-medium text-theme-main-text line-clamp-2">
+                <h6 className=" font-medium text-theme-main-text dark:text-white line-clamp-2">
                   Residential property prices rise by 6% in Q2 2023: pro...
                 </h6>
 
@@ -50,7 +50,7 @@ export default function Articles() {
                 />
               </div>
               <div className="space-y-2.5 py-2.5">
-                <h6 className=" font-medium text-theme-main-text line-clamp-2">
+                <h6 className=" font-medium text-theme-main-text dark:text-white line-clamp-2">
                   Non Residential property prices rise by 4% in Q1 2023: pro...
                 </h6>
 

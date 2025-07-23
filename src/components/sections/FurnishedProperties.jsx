@@ -34,10 +34,12 @@ export default function FurnishedProperties() {
                   loading="lazy"
                 />
               </div>
-              <div className="space-y-2 bg-theme-main-5 rounded-b-lg p-2.5">
+              <div className="space-y-2 bg-theme-main-5 dark:bg-theme-main-text rounded-b-lg p-2.5">
                 <div className="flex items-center gap-1.25">
                   <img src="./assets/icons/villa.svg" alt="Villa" />
-                  <span className="text-theme-small-text">Villa</span>
+                  <span className="text-theme-small-text dark:text-white">
+                    Villa
+                  </span>
                 </div>
                 <div className="flex-between">
                   <h3 className="text-lg/[1.2] font-medium text-theme-main ">
@@ -47,7 +49,7 @@ export default function FurnishedProperties() {
                     For Sell
                   </span>
                 </div>
-                <h4 className="font-medium text-theme-main-text ">
+                <h4 className="font-medium text-theme-main-text dark:text-white">
                   Modern Haven Villa{" "}
                 </h4>
                 <div className="flex gap-2.5">
@@ -78,10 +80,12 @@ export default function FurnishedProperties() {
                   loading="lazy"
                 />
               </div>
-              <div className="space-y-2 bg-theme-main-5 rounded-b-lg p-2.5">
+              <div className="space-y-2 bg-theme-main-5 dark:bg-theme-main-text rounded-b-lg p-2.5">
                 <div className="flex items-center gap-1.25">
                   <img src="./assets/icons/apartment.svg" alt="Apartment" />
-                  <span className="text-theme-small-text">Apartment</span>
+                  <span className="text-theme-small-text dark:text-white">
+                    Apartment
+                  </span>
                 </div>
                 <div className="flex-between">
                   <h3 className="text-lg/[1.2] font-medium text-theme-main ">
@@ -91,7 +95,7 @@ export default function FurnishedProperties() {
                     For Rent
                   </span>
                 </div>
-                <h4 className="font-medium text-theme-main-text ">
+                <h4 className="font-medium text-theme-main-text dark:text-white">
                   Sun & Shine Hills
                 </h4>
                 <div className="flex gap-2.5">

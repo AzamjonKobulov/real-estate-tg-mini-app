@@ -28,7 +28,7 @@ export default function AdvertisementProperty() {
                   className="size-full object-cover"
                 />
               </div>
-              <div className="flex-1 space-y-2.5 bg-theme-main-5 py-3.75 px-2.5">
+              <div className="flex-1 space-y-2.5 bg-theme-main-5 dark:bg-theme-main-text py-3.75 px-2.5">
                 <div className="flex-between">
                   <h4 className="text-xl font-semibold text-theme-main ">
                     $290 <span className="font-medium text-base">/month</span>
@@ -38,7 +38,9 @@ export default function AdvertisementProperty() {
                 </div>
                 <div className="flex items-center gap-1.25">
                   <img src="./assets/icons/villa.svg" alt="Villa" />
-                  <span className="text-theme-small-text">Villa</span>
+                  <span className="text-theme-small-text dark:text-white">
+                    Villa
+                  </span>
                 </div>
                 <h4 className="font-medium text-theme-main-text text-lg/[1.2]">
                   Modern Haven Villa{" "}

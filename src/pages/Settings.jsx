@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Theme from "../components/Theme";
+import { useTheme } from "../contexts/ThemeContext";
 
 export default function Settings() {
   const [showThemeSelector, setShowThemeSelector] = useState(false);
+
+  const { resolvedTheme } = useTheme();
 
   function toggleThemeSelector() {
     setShowThemeSelector((prev) => !prev);
@@ -33,19 +36,25 @@ export default function Settings() {
             />
           </svg>
         </button>
-        <h4 className="font-semibold text-xl text-theme-main-text">Settings</h4>
+        <h4 className="font-semibold text-xl text-theme-main-text dark:text-white">
+          Settings
+        </h4>
       </div>
 
       {/* Settings Items */}
-      <ul className="space-y-5 text-lg font-medium text-theme-main-text">
+      <ul className="space-y-5 text-lg font-medium text-theme-main-text dark:text-white">
         <li>
           <Link
             to="/settings/language"
-            className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3"
+            className="h-12 w-full flex items-center justify-between bg-theme-main-5 dark:bg-theme-main-text rounded-lg cursor-pointer px-2.5 py-3"
           >
             <div className="flex items-center gap-2.5">
               <img
-                src="./assets/icons/language.png"
+                src={
+                  resolvedTheme === "dark"
+                    ? "./assets/icons/language-dark.png"
+                    : "./assets/icons/language.png"
+                }
                 alt="Language Icon"
                 loading="lazy"
                 className="size-6 shrink-0"
@@ -57,12 +66,16 @@ export default function Settings() {
         </li>
         <li>
           <button
-            className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3"
+            className="h-12 w-full flex items-center justify-between bg-theme-main-5 dark:bg-theme-main-text rounded-lg cursor-pointer px-2.5 py-3"
             onClick={() => setShowThemeSelector(true)}
           >
             <div className="flex items-center gap-2.5">
               <img
-                src="./assets/icons/light-mode.svg"
+                src={
+                  resolvedTheme === "dark"
+                    ? "./assets/icons/light-mode-dark.svg"
+                    : "./assets/icons/light-mode.svg"
+                }
                 alt="Sun Icon"
                 loading="lazy"
                 className="size-6 shrink-0"
@@ -73,10 +86,14 @@ export default function Settings() {
           </button>
         </li>
         <li>
-          <button className="h-12 w-full flex items-center justify-between bg-theme-main-5 rounded-lg cursor-pointer px-2.5 py-3">
+          <button className="h-12 w-full flex items-center justify-between bg-theme-main-5 dark:bg-theme-main-text rounded-lg cursor-pointer px-2.5 py-3">
             <div className="flex items-center gap-2.5">
               <img
-                src="./assets/icons/trash.svg"
+                src={
+                  resolvedTheme === "dark"
+                    ? "./assets/icons/trash-dark.svg"
+                    : "./assets/icons/trash.svg"
+                }
                 alt="Trash Icon"
                 loading="lazy"
                 className="size-6 shrink-0"

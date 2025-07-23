@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import useClickOutside from "../hooks/useClickOutside";
@@ -15,12 +17,12 @@ export default function LocationDropdonw() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen((prev) => !prev)}
-        className="h-10 min-w-45 flex-between gap-2.5 text-theme-main tex-sm font-poppins bg-theme-main-5 rounded-full cursor-pointer px-3"
+        className="h-10 min-w-45 flex-between gap-2.5 text-theme-main tex-sm font-poppins bg-theme-main-5 dark:bg-theme-main-text rounded-full cursor-pointer px-3"
       >
-        <div className="flex items-center gap-2.5">
+        <Link to="/search-locations" className="flex items-center gap-2.5">
           <img src="./assets/icons/location.svg" alt="Location" />
           <span>{selectedLocation}</span>
-        </div>
+        </Link>
         <img
           src="./assets/icons/angle-down.svg"
           alt="Angle down"
@@ -37,7 +39,7 @@ export default function LocationDropdonw() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute left-0 mt-2 w-40 bg-white rounded-md shadow-lg z-20"
+            className="absolute left-0 mt-2 w-40 bg-white dark:bg-theme-main-text rounded-md shadow-lg z-20"
           >
             {LOCATIONS.map((location) => (
               <li

@@ -231,7 +231,7 @@ export default function SelectBudget() {
                 className={`flex flex-col items-center gap-1.25 ${
                   i === selectedBudget
                     ? "bg-theme-main text-white"
-                    : "bg-theme-main-5 text-theme-small-text"
+                    : "bg-theme-main-5 text-theme-small-text dark:bg-theme-main-text"
                 } rounded-lg transition-colors duration-200 px-4 py-2`}
               >
                 <div

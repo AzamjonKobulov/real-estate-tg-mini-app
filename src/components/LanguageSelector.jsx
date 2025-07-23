@@ -51,7 +51,7 @@ export default function LanguageSelector() {
             className={`h-16 flex items-center justify-between text-lg font-medium font-inter p-4 rounded-lg smooth-200 ${
               selectedLanguage === language.id
                 ? "bg-theme-main text-white"
-                : "bg-theme-main-5"
+                : "bg-theme-main-5 dark:bg-theme-main-text dark:text-white"
             }`}
             onClick={() => handleLanguageChange(language.id)}
           >

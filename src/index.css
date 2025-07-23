@@ -2,6 +2,8 @@
 
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --max-width-base: 29.0625rem;
 
@@ -40,11 +42,11 @@
 
 @layer base {
   body {
-    @apply font-lato text-theme-main-text leading-[1.2] overflow-x-hidden pb-36;
+    @apply font-lato text-theme-main-text leading-[1.2] overflow-x-hidden  pb-36;
   }
 
   h2 {
-    @apply font-medium text-lg/[1.2];
+    @apply font-medium text-lg/[1.2] dark:text-white;
   }
 }
 

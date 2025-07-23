@@ -27,7 +27,7 @@ export default function OwnerProperty() {
   return (
     <section id="owner-property">
       <div className="max-w-base mx-auto space-y-5 px-5">
-        <div className="max-w-base mx-auto flex-between px-5">
+        <div className="max-w-base mx-auto flex-between">
           <h2>Owner Property</h2>
           <Link to="/" className="text-sm text-theme-main">
             See all
@@ -48,8 +48,8 @@ export default function OwnerProperty() {
                   className="size-full object-cover"
                 />
               </div>
-              <div className="space-y-2 bg-theme-main-5 p-2.5">
-                <h5 className="text-lg/[1.2] text-theme-main-text font-medium line-clamp-1">
+              <div className="space-y-2 bg-theme-main-5 dark:bg-theme-main-text p-2.5">
+                <h5 className="text-lg/[1.2] text-theme-main-text dark:text-white font-medium line-clamp-1">
                   {p.title}
                 </h5>
                 <Link to="/" className="font-medium  text-theme-main">

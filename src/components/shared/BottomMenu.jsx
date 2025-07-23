@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { useTheme } from "../../contexts/ThemeContext";
 
 const navItems = [
   {
@@ -42,12 +43,11 @@ const AddButton = () => (
 );
 
 export default function BottomMenu() {
+  const { resolvedTheme } = useTheme();
+
   return (
     <div className="fixed bottom-0 left-1/2 -translate-x-1/2 max-w-base z-50 w-full">
       <div className="relative">
-        {/* Notched Circle */}
-        {/* <div className="absolute left-1/2 -translate-x-1/2 -top-7 w-18 h-18 bg-white rounded-full z-10 after:"></div> */}
-
         {/* FAB Add Button */}
         <button className="absolute left-1/2 -translate-x-1/2 -top-6 xs:-top-10 z-20 size-15 xs:size-18 flex items-center justify-center bg-theme-main text-white rounded-full shadow-lg">
           <svg
@@ -67,7 +67,11 @@ export default function BottomMenu() {
         {/* Bottom Nav Bar */}
         <div className="relative max-w-base mx-auto">
           <img
-            src="./assets/images/bottom-menu.png"
+            src={
+              resolvedTheme === "dark"
+                ? "./assets/images/bottom-menu-dark.png"
+                : "./assets/images/bottom-menu.png"
+            }
             alt="Image"
             className="w-full h-20 xs:h-22 object-fill absolute bottom-0"
           />

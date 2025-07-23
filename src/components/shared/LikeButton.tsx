@@ -6,7 +6,7 @@ export default function LikeButton({ className }) {
   return (
     <button
       onClick={() => setLiked((prev) => !prev)}
-      className={`size-7.5 relative z-10 shrink-0 flex-center bg-theme-main-4 rounded-full ${className}`}
+      className={`size-7.5 relative z-20 shrink-0 flex-center bg-theme-main-4 rounded-full ${className}`}
     >
       <img
         src={

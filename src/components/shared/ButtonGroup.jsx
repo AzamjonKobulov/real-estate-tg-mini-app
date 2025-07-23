@@ -20,7 +20,9 @@ export default function ButtonGroup({
           key={label}
           onClick={() => handleClick(label, index)}
           className={`h-10 rounded-lg px-5 transition-colors duration-200 ${
-            index === activeIndex ? "btn-primary" : "btn-secondary"
+            index === activeIndex
+              ? "btn-primary"
+              : "btn-secondary dark:bg-theme-main-text"
           }`}
         >
           {label}

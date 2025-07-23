@@ -8,7 +8,7 @@ export default function SearchLocation() {
       <section className="pt-5">
         <div className="max-w-base mx-auto space-y-10 px-5">
           <div className="space-y-5">
-            <div className="flex items-center gap-2.5 text-xl/[1.2] font-semibold">
+            <div className="flex items-center gap-2.5 text-xl/[1.2] font-semibold dark:text-white">
               <button>
                 <svg
                   width="24"
@@ -41,9 +41,9 @@ export default function SearchLocation() {
                 <li>
                   <Link
                     to="/"
-                    className="flex items-center gap-2.5 bg-theme-small-text-2 shadow-search-location p-2.5"
+                    className="flex items-center gap-2.5 bg-theme-small-text-2 dark:bg-theme-main-text shadow-search-location dark:shadow-none rounded overflow-hidden p-2.5"
                   >
-                    <div className="size-15 shrink-0 rounded overflow-hidden">
+                    <div className="size-15 shrink-0 ">
                       <img
                         src="./assets/images/search-result-1.jpg"
                         className="size-full object-cover"
@@ -51,9 +51,9 @@ export default function SearchLocation() {
                       />
                     </div>
                     <div className="space-y-2.5">
-                      <div className="flex-between text-xl/[1.2] font-semibold">
+                      <div className="flex-between text-xl/[1.2] font-semibold dark:text-white">
                         Classic Homes
-                        <span className="h-5.5 bg-theme-main-5 flex items-center gap-1.25 text-theme-warning font-medium text-[11px] rounded px-1.25">
+                        <span className="h-5.5 bg-theme-main-5 dark:bg-theme-main-text flex items-center gap-1.25 text-theme-warning font-medium text-[11px] rounded px-1.25">
                           <img
                             src="./assets/icons/premium-gold.svg"
                             alt="Crown icon"
@@ -76,9 +76,9 @@ export default function SearchLocation() {
                 <li>
                   <Link
                     to="/"
-                    className="flex items-center gap-2.5 bg-theme-small-text-2 shadow-search-location p-2.5"
+                    className="flex items-center gap-2.5 bg-theme-small-text-2 dark:bg-theme-main-text shadow-search-location dark:shadow-none rounded overflow-hidden p-2.5"
                   >
-                    <div className="size-15 shrink-0 rounded overflow-hidden">
+                    <div className="size-15 shrink-0 ">
                       <img
                         src="./assets/images/search-result-2.jpg"
                         className="size-full object-cover"
@@ -86,7 +86,7 @@ export default function SearchLocation() {
                       />
                     </div>
                     <div className="space-y-2.5">
-                      <div className="flex-between text-xl/[1.2] font-semibold">
+                      <div className="flex-between text-xl/[1.2] font-semibold dark:text-white">
                         Green City park
                         <span className="hidden h-5.5 bg-theme-main-5 flex items-center gap-1.25 text-theme-warning font-medium text-[11px] rounded px-1.25">
                           <img

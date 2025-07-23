@@ -8,7 +8,7 @@ export default function Gallery() {
       <section className="pt-5">
         <div className="max-w-base mx-auto space-y-10 px-5">
           <div className="space-y-5">
-            <div className="flex items-center gap-2.5 text-xl/[1.2] font-semibold">
+            <div className="flex items-center gap-2.5 text-xl/[1.2] font-semibold dark:text-white">
               <button>
                 <svg
                   width="24"
